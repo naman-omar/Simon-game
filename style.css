@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.back {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    background : url("https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size : cover;
+    background-position: center;
+    height: 120px;
+}
+
+.boxes{
+    background-color: white;
+}
+
+body p,hr{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+body p {
+    font-size: 20px;
+}
+
+.set1,
+.set2 {
+    display: flex;
+    justify-content: center;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    border: 8px solid black;
+    margin: 10px;
+}
+
+#box1 {
+    background-color: #f99b45;
+}
+
+#box2 {
+    background-color: #d95980;
+}
+
+#box3 {
+    background-color: #819ff9;
+}
+
+#box4 {
+    background-color: #63aac0;
+}
+
+.flashGame{
+    background-color: white !important;
+}
+
+.flashUser{
+    background-color: rgb(28, 153, 61) !important;
+}
+
+.wrong{
+    background-color: red;
+}
+
+.disabled{
+    pointer-events: none;
+}
